@@ -1,3 +1,4 @@
+#include <stdio.h>
 /**
  * main - Entry point
  *
@@ -14,7 +15,8 @@ int main(void)
 	}
 	for (lalp = 'A'; lalp <= 'Z'; lalp++)
 	{
-	putchar(lalp)
+	putchar(lalp);
 	}
+	putchar('\n');
 return (0);
 }
