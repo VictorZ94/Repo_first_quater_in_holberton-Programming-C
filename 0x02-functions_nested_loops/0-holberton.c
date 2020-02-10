@@ -1,7 +1,8 @@
 #include <stdio.h>
 #include "holberton.h"
 
-/**to print with putchar
+/**
+ *to print with putchar
  *
  *
  */
@@ -17,6 +18,5 @@ int main(void)
 	_putchar(c[i]);
 	}
 	_putchar('\n');
-	
-return(0);
+return (0);
 }
