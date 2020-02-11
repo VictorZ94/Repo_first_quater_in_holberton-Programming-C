@@ -1,20 +1,20 @@
 #include "holberton.h"
 
 /**
- * main - check the code for Holberton School students.
+ * _islower  - check the code for Holberton School students.
+ * @r: - cheche the code fot holberton school students.
  *
  * Return: Always 0.
  */
 
 int _islower(int r)
 {
-	if ( _islower(r) )
+	if ((r >= 97) && (r <= 122))
 	{
-	_putchar(49);
+	return (1);
 	}
 	else
 	{
-	_putchar(48);
+	return (0);
 	}
-return(0);
 }
