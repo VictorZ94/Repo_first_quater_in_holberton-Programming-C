@@ -1,7 +1,7 @@
 #include "holberton.h"
 
 /**
- * main - check the code for Holberton School students.
+ * times_table - check the code for Holberton School students.
  *
  * Return: Always 0.
  */
@@ -26,7 +26,7 @@ void times_table(void)
 		_putchar (z + '0');
 		}
 		else
-		{ 
+		{
 		_putchar (z + '0');
 		}
 			if (n != 9)
