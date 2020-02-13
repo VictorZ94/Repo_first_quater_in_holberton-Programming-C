@@ -2,8 +2,7 @@
 
 /**
  * print_diagonal - check the code for Holberton School students.
- * @n: - 
-
+ * @n: - varible
  * Return: Always 0.
  */
 
