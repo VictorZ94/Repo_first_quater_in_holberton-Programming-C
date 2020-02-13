@@ -1,8 +1,8 @@
 #include "holberton.h"
 
 /**
- * main - check the code for Holberton School students.
- *
+ * print_line - check the code for Holberton School students.
+ * @n: - variable
  * Return: Always 0.
  */
 
@@ -17,7 +17,5 @@ void print_line(int n)
 		_putchar ('-');
 		}
 	}
-
-	_putchar ('\n');
-
+_putchar ('\n');
 }
