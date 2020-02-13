@@ -1,8 +1,9 @@
 #include "holberton.h"
 
 /**
- * main - check the code for Holberton School students.
- *
+ * print_diagonal - check the code for Holberton School students.
+ * @n: - 
+
  * Return: Always 0.
  */
 
