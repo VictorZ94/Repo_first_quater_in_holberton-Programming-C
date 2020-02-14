@@ -8,19 +8,26 @@
 
 int main(void)
 {
-	int z, t, c;
+	int z;
 
 	for (z = 1; z <= 100; z++)
 	{
-		for (t = 1; t <= 100; t = t * 3)
+		if (z % 3 == 0)
 		{
-		printf("%d ", t);
-			for (c = 0; c <= 100; c = c * 5)
-			{
-			printf("%d ", c);
-			}
+		printf ("Fizz ");
 		}
-	printf("%d ", z);
+		else if (z % 5 == 0)
+		{
+		printf ("Buzz ");
+		}
+		else if ((z % 3 == 0) && (z % 5 == 0))
+		{
+		printf ("FizzBuzz ");
+		}
+		else
+		{
+		printf("%d ", z);
+		}
 	}
 putchar ('\n');
 return (0);
