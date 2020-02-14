@@ -30,7 +30,7 @@ int main(void)
 		}
 		if (z != 100)
 		{
-		printf (" ");
+		printf(" ");
 		}
 	}
 putchar ('\n');
