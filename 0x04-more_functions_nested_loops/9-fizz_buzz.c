@@ -12,17 +12,17 @@ int main(void)
 
 	for (z = 1; z <= 100; z++)
 	{
-		if (z % 3 == 0)
+		if ((z % 3 == 0) && (z % 5 == 0))
 		{
-		printf("Fizz");
+		printf("FizzBuzz");
 		}
 		else if (z % 5 == 0)
 		{
 		printf("Buzz");
 		}
-		else if ((z % 3 == 0) && (z % 5 == 0))
+		else if (z % 3 == 0)
 		{
-		printf("FizzBuzz");
+		printf("Fizz");
 		}
 		else
 		{
