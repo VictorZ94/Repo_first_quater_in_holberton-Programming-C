@@ -2,8 +2,8 @@
 #include <stdio.h>
 
 /**
- * main - check the code for Holberton School students.
- *
+ * _strlen - check the code for Holberton School students.
+ * @str: varia
  * Return: Always 0.
  */
 int _strlen(char *str)
