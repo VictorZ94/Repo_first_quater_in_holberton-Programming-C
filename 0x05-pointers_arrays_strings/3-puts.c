@@ -1,8 +1,8 @@
 #include "holberton.h"
 
 /**
- * main - check the code for Holberton School students.
- *
+ * _puts - check the code for Holberton School students.
+ * @str: - vaiable
  * Return: Always tr.
  */
 
@@ -10,7 +10,7 @@ void _puts(char *str)
 {
 
 	int i;
-	
+
 	while (*str != '\0')
 	{
 	i++;
