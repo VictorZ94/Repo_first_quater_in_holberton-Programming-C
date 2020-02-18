@@ -2,8 +2,8 @@
 #include <stdio.h>
 
 /**
- * main - check the code for Holberton School students.
- *
+ * reset_to_98 - check the code for Holberton School students.
+ * @n: varibale pointer to a integer
  * Return: Always 0.
  */
 
