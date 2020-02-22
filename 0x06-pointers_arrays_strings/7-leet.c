@@ -10,7 +10,7 @@
 char *leet(char *s)
 {
 	char s1[] = "AaEeOoTtLl";
-	char s2[] = {'4','4','3','3','0','0','7','7','1','1'};
+	char s2[] = {'4', '4', '3', '3', '0', '0', '7', '7', '1', '1'};
 	int i, j;
 
 	for (i = 0; s[i] != '\0'; i++)
@@ -20,7 +20,7 @@ char *leet(char *s)
 			if (s[i] == s1[j])
 			{
 				s[i] = s2[j];
-			/*	break;*/
+				break;
 			}
 		}
 	}
