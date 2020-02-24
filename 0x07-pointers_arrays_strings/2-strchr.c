@@ -1,8 +1,9 @@
 #include "holberton.h"
 
 /**
- * main - check the code for Holberton School students.
- *
+ * _strchr - check the code for Holberton School students.
+ * @s: - address momery of string
+ * @c: - character particular
  * Return: Always 0.
  */
 
