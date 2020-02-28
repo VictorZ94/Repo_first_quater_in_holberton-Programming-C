@@ -8,8 +8,8 @@
  */
 int main(void)
 {
-    char s1[98] = "Hello ";
-    char s2[] = "World!\n";
+    char s1[98] = "Victor Alonso ";
+    char s2[] = "Zuluaga Ramirez!\n";
     char *p;
 
     printf("%s\n", s1);
