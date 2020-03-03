@@ -27,6 +27,10 @@ char *create_array(unsigned int size, char c)
 	{
 		return (0);
 	}
+	else if (size == 0)
+	{
+		return ('\0');
+	}
 	else
 	{
 		s[i] = '\0';
