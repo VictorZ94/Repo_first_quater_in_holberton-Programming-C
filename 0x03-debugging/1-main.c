@@ -9,14 +9,14 @@ int main(void)
 {
 	int i;
 
-	printf("Infinite loop incoming :(\n"); /*dont delete it!*/
+	printf("Infinite loop incoming :(\n"); 
 
 	i = 0;
 
-	while (i < 10)
+/*	while (i < 10) 
 	{
 		putchar(i);
-	}
+	}  it isn't increasing the iterate  */
 
 	printf("Infinite loop avoided! \\o/\n");
 
