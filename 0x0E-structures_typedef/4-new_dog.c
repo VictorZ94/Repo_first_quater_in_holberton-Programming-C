@@ -7,24 +7,25 @@
 * @age: Segundo miembro
 * @owner: 3th member
 *
+* Return: pointer a dog_t
 */
 dog_t *new_dog(char *name, float age, char *owner)
 {
 
-	struct dog *dog_t;
+	struct dog *doggy;
 
-	dog_t = malloc(sizeof(struct dog));
+	doggy = malloc(sizeof(struct dog));
 
-	if (dog_t == NULL)
+	if (doggy == NULL)
 	{
 		return (NULL);
-		free(dog_t);
+		free(doggy);
 	}
+	free(doggy);
 
-	dog_t->name = name;
-	dog_t->age = age;
-	dog_t->owner = owner;
+	doggy->name = name;
+	doggy->age = age;
+	doggy->owner = owner;
 
-
-return (dog_t);
+return (doggy);
 }
