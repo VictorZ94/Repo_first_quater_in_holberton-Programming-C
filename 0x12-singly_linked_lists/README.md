@@ -1,4 +1,4 @@
-### Javascript
+### single liked list - C programming lenguage
 
 #### 0. Print list
 
