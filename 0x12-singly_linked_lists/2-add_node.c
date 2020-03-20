@@ -2,7 +2,6 @@
 #include <string.h>
 #include <stdio.h>
 #include "lists.h"
-
 /**
  * add_node - print contain list
  * @str: the string added
@@ -17,7 +16,6 @@ list_t *add_node(list_t **head, const char *str)
 	int i, newlen;
 	char *duplicate;
 
-	/*newlen = strdup(str);*/
 	for (newlen = 0; str[newlen]; newlen++)
 	{
 	}
@@ -25,7 +23,7 @@ list_t *add_node(list_t **head, const char *str)
 	if (str == NULL)
 		return (NULL);
 
-	new = *head;
+	/*new = *head;*/
 
 	new = malloc(sizeof(list_t));
 
