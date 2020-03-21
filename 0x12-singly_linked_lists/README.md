@@ -1,5 +1,7 @@
 ### single liked list - C programming lenguage
 
+![](https://img.shields.io/badge/Victor_Zuluaga-Holberton_School-red) ![](https://img.shields.io/badge/Structures_data-C%20lenguaje-violet) ![](https://img.shields.io/badge/Shell-Linux-black) ![](https://img.shields.io/badge/bash-Linux-black)
+
 #### 0. Print list
 
 Write a function that prints all the elements of a list_t list.
@@ -207,7 +209,7 @@ julien@ubuntu:~/0x12. Singly linked lists$
 
 ```
 
-=====================================================================================
+==============================================================================
 
 ### 3. Add node at the end
 
@@ -299,7 +301,7 @@ julien@ubuntu:~/0x12. Singly linked lists$ ./d
 julien@ubuntu:~/0x12. Singly linked lists$
 
 ```
-============================================================================
+==========================================================================
 ### 4. Free list
 
 Write a function that frees a list_t list.
