@@ -3,22 +3,17 @@
 /**
  * create_file - Function to read and print text file.
  * @filename: argument get in with pointer
- * @letters: size of text
- * Return: what read.
+ * @text_content: file to redirection created
+ * Return: 1 on success.
  */
 
 int create_file(const char *filename, char *text_content)
 {
 	int fd;
 	int w, i;
-	/*char *buf ;*/
 
-	while(text_content[i] != '\0')
+	while (text_content[i] != '\0')
 		i++;
-
-	/*buf = malloc(sizeof(char) * i);
-	if (buf == NULL)
-		return (0);*/
 
 	if (filename == NULL)
 		return (-1);
@@ -34,8 +29,6 @@ int create_file(const char *filename, char *text_content)
 	if (w == -1)
 		return (-1);
 
-	close(fd);
-
-/*free(buf);*/
+close(fd);
 return (1);
 }
