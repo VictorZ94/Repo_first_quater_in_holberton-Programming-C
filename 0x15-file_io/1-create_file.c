@@ -30,8 +30,8 @@ int create_file(const char *filename, char *text_content)
 		return (-1);
 
 	c = close(fd);
-	if (close < 0)
+	if (c < 0)
 		return (-1);
-		
+
 return (1);
 }
