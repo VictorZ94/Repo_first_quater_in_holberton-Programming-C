@@ -35,7 +35,7 @@ int create_file(const char *filename, char *text_content)
 			return (-1);
 	}
 
-	c = close(fd);
+	close(fd);
 	if (c < 0)
 		return (-1);
 
